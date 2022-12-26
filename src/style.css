@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background: #f2eeff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  font-family: "Allerta Stencil";
+  font-weight: 800;
+  font-size: 28px;
+  color: #000000;
+}
+
+.navbar-login_btn {
+  width: 100px;
+  height: 36px;
+  cursor: pointer;
+  background: #f2eeff;
+  border: 1px solid #000000;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 9px;
+  font-family: "Alatsi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  transition: all 0.5s ease;
+  color: #000000;
+}
+
+.navbar-login_btn:hover {
+  background: #eae9f0;
+  border: 1.5px solid #000000;
+  font-weight: 500;
+  box-shadow: inset 0px 1.5px 1.5px rgba(0, 0, 0, 0.5);
+}
+
+aside {
+  position: fixed;
+  top: 0rem;
+  right: 0;
+  bottom: 0;
+  width: 250px;
+  background-color: #fafafa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: all 5s ease;
+  transform: translateX(100%);
+}
+
+.transe {
+  transform: translateX(0%);
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 a {
+  cursor: pointer;
+}
+
+p {
+  font-size: 14px;
+  margin: 20px;
+}
+
+.hamburger-icon {
+  width: 25px;
+  height: 4px;
+  background-color: black;
+  margin: 3px 0;
+  border-radius: 250rem;
+}
+
+.avatar {
+  border-radius: 50%;
+}
